@@ -4,46 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
-    <title>Vasil Matin</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/whitescreen.css">
+    <title>HAVE | Logo Designer | Vasil Matin</title>
 
-    <header>
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>I am Vasil Matin</h1>
-                <h4>GRAPHIC DESIGNER</h4>
-            </div>
+</head>
+<body id="home">
+    <!-- Nav Bar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book-open"></i>
+                HAVE
+            </span>
+            
+        </h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Header: Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                The Sky is the limit
+            </h1>
+            <p class="lead">
+                Vasil Matin - Logo Designer
+            </p>
+            <a  href="#what" class="btn">Read More</a>
         </div>
     </header>
 
-    <section class="intro">
-        <img src="/img/vasil.png" alt="vasilmatin.png">
-        <p>Здравейте! Казвам се Васил Матин. Предлагам изработка и дизайн на стилни, и модерни лога, флаери, щампи на тениски, и визитки. Пишете ми чрез формата по-долу за да обсъдим проекта и неговата цена. Работя с най-новите технологий като CorelDraw Suite 2018 и Adobe Photoshop CC.</p>
-    </section>
-
-    <section class="services">
-        <h3>Моите услуги</h3>
-
-    </section>
-
-    <section class="logos">
-        <h3>Логота</h3>
-
-        <div class="flex-container">
-            <div><img src="/img/Logos/1-1.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-2.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-3.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-4.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-5.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-6.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-7.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-8.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-9.jpg" alt=""></div>
-            <div><img src="/img/Logos/1-10.jpg" alt=""></div>
+    <!-- Section: What we do -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-pencil-ruler fa-2x"></i>
+                    <div>
+                        <h3>Logo Design</h3>
+                        <p>Having a brand logo is crucial! With our experience, you don't have to worry.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <div>
+                        <h3>Business Card Design</h3>
+                        <p>No matter if you have a company or just want to have a business card, it's a great way to introduce yourself.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-open fa-2x"></i>
+                    <div>
+                        <h3>Flyer Design</h3>
+                        <p>We can create flyers for promoting your event.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Section: Who Am I -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primarty">Who</span> Am I</h2>
+            <p>My name is Vasil Matin, a freelance graphic designer. I'm specializing in making branding for your business.
+            In the section below you can check my past work and if you want to discuss your project, please, don't hesitate to contact
+        me via the contact form below.</p>
+            <h3>Specilizing in</h3>
+            <ul class="list">
+                <li>Designing your brand logo </li>
+                <li>Designing your Business cards</li>
+                <li>Designing company t-shirts</li>
+                <li>Designing flyers for your event</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section: Clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading">
+                My<span class="text-primary"> Clients</span>
+            </h2>
+            <div class="items py-1">
+                <div><img src="./img/logos/logo1.png" alt="Client"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="work" id="work">
+        <h3 class="m-heading">My<span class="text-primary"> Logos</span></h3>
+        <section class="logos">
+            <img class="zoom" src="img/logos/1-1.png" alt="logo1">
+            <img class="zoom"  src="img/logos/1-2.png" alt="logo2">
+            <img class="zoom" src="img/logos/1-3.png" alt="logo3">
+            <img class="zoom" src="img/logos/1-4.png" alt="logo4">
+            <img class="zoom" src="img/logos/1-5.png" alt="logo5">
+            <img class="zoom" src="img/logos/1-6.png" alt="logo6">
+            <img class="zoom" src="img/logos/1-7.png" alt="logo7">
+            <img class="zoom" src="img/logos/1-8.png" alt="logo8">
+            <img class="zoom" src="img/logos/1-9.png" alt="logo9">
+            <img class="zoom" src="img/logos/1-10.png" alt="logo10">
+            <img class="zoom" src="img/logos/1-12.png" alt="logo12">
+            <img class="zoom" src="img/logos/1-13.png" alt="logo13">
+            <img class="zoom" src="img/logos/1-15.png" alt="logo15">
+            <img class="zoom" src="img/logos/1-16.png" alt="logo16">
+            <img class="zoom" src="img/logos/1-17.png" alt="logo17">
+            <img class="zoom" src="img/logos/1-18.png" alt="logo18"> 
+        </section>
+
+        <h3 class="m-heading">My<span class="text-primary"> Flyers</span> </h3>
+        <section class="flyers">
+            <img class="zoom" src="img/flyers/3-1.png" alt="flyer1">
+            <img class="zoom" src="img/flyers/3-2.png" alt="flyer2">
+            <img class="zoom" src="img/flyers/3-3.png" alt="flyer3">
+            <img class="zoom" src="img/flyers/3-4.png" alt="flyer4">
+            <img class="zoom" src="img/flyers/3-5.png" alt="flyer5">
+            <img class="zoom" src="img/flyers/3-6.png" alt="flyer6">
+        </section>
+
+        <h3 class="m-heading">My<span class="text-primary"> Business Cards</span> </h3>
+        <section class="business-cards">
+            <img class="zoom" src="img/business cards/2-1.png" alt="card1">
+            <img class="zoom" src="img/business cards/2-2.png" alt="card2">
+            <img class="zoom" src="img/business cards/2-3.png" alt="card3">
+            <img class="zoom" src="img/business cards/2-4.png" alt="card4">
+            <img class="zoom" src="img/business cards/2-5.png" alt="card5">
+            <img class="zoom" src="img/business cards/2-6.png" alt="card6">
+            <img class="zoom" src="img/business cards/2-7.png" alt="card7">
+            <img class="zoom" src="img/business cards/2-8.png" alt="card8">
+            <img class="zoom" src="img/business cards/2-9.png" alt="card9">
+        </section>
+    </div>
+
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form bellow to contact us!</p>
+            <form action="process.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">eMail</label>
+                    <input type="emailt" name="email" id="email" placeholder="Enter eMail">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+
+                <input type="submit" value="Send" class="btn-dark">
+            </form>
+        </div>
+
+        <div class="map">
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Copyright &copy; 2020 HAVE Website, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- JQuery CND -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnCoR8a_NCqsws6wHINB-WTpRm45tV3to&callback=initMap"
+    async defer></script>
 </body>
 </html>
+
+
+<!-- AIzaSyAnCoR8a_NCqsws6wHINB-WTpRm45tV3to -->
